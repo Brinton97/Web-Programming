@@ -1,0 +1,53 @@
+form{
+	background-image: url("t.jpg");
+	opacity:1.0;
+}
+table {
+	text-align:center;
+	width: 50%;
+	border-style: dotted;
+	border-color: black;
+}
+legend {
+	font-size: 25;
+	color: red;
+	border-radius: 10px;
+	 text-shadow: 2px 2px red;
+	}
+fieldset {
+	border: 3px solid red;
+	margin: auto;
+}
+tr,td{
+	color: black;
+	 text-shadow: 1px 1px black;
+}
+input[type=text], select {
+    width: 100%;
+border:2px solid blue;
+}
+
+}
+input[type=number]{
+	border:2px solid green;
+}
+input[type=date] {
+	border:2px solid black;
+}
+input[type=submit] {
+	width:25%;
+	height:10%;
+	border-radius: 5px;
+	color: white;
+	font-size: 18;
+	background-color:green;
+}
+input[type=submit]:hover {
+	background-color: red;
+}
+input[type=reset]:hover {
+	background-color: red;
+}
+legend:hover{
+	background-color: yellow;
+}
